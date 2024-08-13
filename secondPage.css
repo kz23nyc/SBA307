@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+input {
+    color: rgb(160, 159, 159);
+}
+
+html {
+    background-color: rgb(232, 238, 236);
+    
+}
+
+.gupter-regular {
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    margin-left: 20px;
+    padding: 20px;
+    color: rgb(20, 10, 10);
+    font-size: 3em;
+    font-style: italic;           
+}
+
+fieldset {
+    margin-left: auto;
+    margin-bottom: 10%;
+    padding: 20px;
+}

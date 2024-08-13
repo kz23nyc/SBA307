@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatiable" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="secondpage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="action_page-ph" onsubmit="alert('Thanks for submitting!')">
+      <fieldset>
+        <h1>Get A Library Card</h1>
+
+        <label for="firstName"
+          >First Name
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            value="Enter Your First Name"
+            required
+          />
+        </label>
+        <br />
+
+        <label for="lastName"
+          >Last Name
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            value="Enter Your Last Name"
+            required
+          />
+        </label>
+        <br />
+
+        <label for="email"
+          >Email <input type="email" value="Enter Your Email" /> </label
+        ><br />
+
+        <label for="password"
+          >Password
+          <input
+            type="password"
+            name="password"
+            id="password"
+            value="Enter Your Password"
+          /> </label
+        ><br />
+
+        <label for="confirmPassword"
+          >Confirm Password
+          <input
+            type="password"
+            name="confirmPassword"
+            id="password"
+            value="Confirm Password"
+          /> </label
+        ><br />
+
+        <label>Gender</label>
+
+        <label> <input type="radio" name="radio" id="Female" />Female </label>
+        <label> <input type="radio" name="radio" id="Male" />Male </label>
+        <br />
+
+        <label for="DateofBirth">Date of Birth <input type="date" /> </label
+        ><br />
+
+        <label
+          >Tel
+          <input
+            type="tel"
+            name="tel"
+            id="Tel"
+            value="xxx-xxx-xxxx"
+            maxlength="12" /></label
+        ><br />
+
+        <label>What's your favorite Genres?</label>
+        <label for="Fiction"
+          ><input type="checkbox" name="Fiction" id="checkbox" />Fiction</label
+        >
+        <label for="Non-Fiction"
+          ><input
+            type="checkbox"
+            name="Non-Fiction"
+            id="checkbox2"
+          />Non-fiction</label
+        >
+        <label for="Science Fiction"
+          ><input
+            type="checkbox"
+            name="Science Fiction"
+            id="checkbox3"
+          />Science Fiction</label
+        >
+        <label for="Language"
+          ><input
+            type="checkbox"
+            name="Science Fiction"
+            id="checkbox3"
+          />Language</label
+        >
+        <label for="Comedy"
+          ><input
+            type="checkbox"
+            name="Science Fiction"
+            id="checkbox3"
+          />Comedy</label
+        >
+        <label for="Mystery"
+          ><input
+            type="checkbox"
+            name="Science Fiction"
+            id="checkbox3"
+          />Mystery</label
+        >
+        <br />
+        <br />
+        <label for="summary">Write a summary of your favorite book.</label
+        ><br /><br />
+        <br />
+        <textarea id="summary" rows="5" cols="40" maxlength="300"></textarea>
+        <br />
+        <br />
+        <div>
+            <label>Register for</label> 
+            <select name="location">
+             <option value="Select">Select</option>
+             <option value="Bronx">Online e-card</option>
+             <option value="Manhattan">Physical card</option>             
+         </div>
+   
+
+        <div>
+        <label for="Register"
+          ><input
+            type="submit"
+            value="Click to submit"
+            style="color: rgb(1, 1, 1)"
+        /></label>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
